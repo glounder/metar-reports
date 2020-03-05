@@ -3,14 +3,15 @@
 This is a sample project to solve a problem parsing METAR report strings.
 
 ## Project Setup
-To setup the project, just run the following command to install all the dependancies.
-
+To setup the project, you'll need to clone this repository and install the dependancies with the following commands.
 ```
+git clone https://github.com/glounder/metar-reports
+cd metar-reports
 npm install
 ```
 
 ### Run Project
-To run the project, run the command below.  Once it is done, you can view the UI by visiting http://127.0.0.1:8080.
+To run the project, run the command below in the `metar-reports` directory.  Once it is done, you can view the UI by visiting http://127.0.0.1:8080.
 ```
 npm run serve
 ```
